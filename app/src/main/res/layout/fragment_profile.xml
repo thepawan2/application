@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".FragmentProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/profilr"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:id="@+id/name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pawan sharma"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/occupation_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Developer"
+            android:textSize="16sp"
+            android:textColor="#808080"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="#FFFFFF"
+            android:background="#007BFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="32dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                app:tint="#504E4E" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noida, India"
+                android:textSize="16sp"
+                android:textColor="#808080"
+                android:layout_marginStart="8dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bio_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum turpis in ligula placerat, nec auctor urna ultrices. Nulla semper, leo non commodo aliquam, metus tellus aliquet enim, sed tincidunt orci enim a turpis. Sed nec venenatis mauris, vel eleifend ex."
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginTop="32dp"
+            android:paddingHorizontal="16dp" />
+
+        <!-- Additional UI elements can be added here -->
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</FrameLayout>

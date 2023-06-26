@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText">
+
+    <group>
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="My Account" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="@string/nav_notification"
+        />
+
+    <item
+        android:id="@+id/nav_syllabus"
+        android:icon="@drawable/baseline_library_books_24"
+        android:title="Syllabus" />
+
+
+    <item
+        android:id="@+id/nav_studyMaterial"
+        android:icon="@drawable/baseline_article_24"
+        android:title="Study Material" />
+
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_baseline_details_24"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Logout" />
+
+    </group>
+
+    <item android:title="Upcoming feature">
+        <menu>
+            <item
+                android:id="@+id/nav_assignment"
+                android:icon="@drawable/baseline_assignment_24"
+                android:title="Assignment" />
+
+            <item
+                android:id="@+id/nav_onlineFeePayment"
+                android:icon="@drawable/baseline_payment_24"
+                android:title="Fee Payment" />
+
+            <item
+                android:id="@+id/nav_career"
+                android:icon="@drawable/baseline_connect_without_contact_24"
+                android:title="Career Counselling"/>
+
+
+        </menu>
+    </item>
+
+</menu>
