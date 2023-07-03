@@ -55,7 +55,7 @@ public class FragmentChat extends Fragment {
     private static final int REQUEST_CODE_SPEECH_INPUT = 1;
 
     private String apiurl = "https://api.openai.com/v1/completions";
-    String accessToken="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";
+    String accessToken="";
     List<Message> messageList;
 
 
